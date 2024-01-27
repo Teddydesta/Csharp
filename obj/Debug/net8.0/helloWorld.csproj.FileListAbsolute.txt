@@ -12,3 +12,4 @@ C:\code\helloWorld\obj\Debug\net8.0\refint\helloWorld.dll
 C:\code\helloWorld\obj\Debug\net8.0\helloWorld.pdb
 C:\code\helloWorld\obj\Debug\net8.0\helloWorld.genruntimeconfig.cache
 C:\code\helloWorld\obj\Debug\net8.0\ref\helloWorld.dll
+C:\code\helloWorld\obj\Debug\net8.0\helloWorld.sourcelink.json
