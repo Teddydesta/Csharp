@@ -4,6 +4,7 @@
 string firstName= "Tewodros";
 string lastName = "Desta";
 string name = "my first name is    " + firstName + "   and     " + "  my father name is: " + lastName;
+
 //string interpolation in c#
 // Console.WriteLine($"My first name is    {firstName}      and   my father name is {lastName}");
 
@@ -17,6 +18,7 @@ string name = "my first name is    " + firstName + "   and     " + "  my father 
 //search string and replace string
 // Console.WriteLine(name.Replace("Tewodros", "Teddy"));
 
+
 //find for string in the code
 bool myName= name.Contains("Tewodros");
 Console.WriteLine(myName);
@@ -25,3 +27,25 @@ Console.WriteLine(myName);
 Console.WriteLine(name.ToUpper());
 //length
 Console.WriteLine(name.Length);
+
+//
+// Numbers in C#
+
+
+int a= 2100000000; 
+int b= 2100000000;
+int c =  a + b;
+Console.WriteLine(c);
+
+
+long d= 2100000000; 
+long e= 2100000000;
+long f =  d + e;
+Console.WriteLine(f);
+
+
+int g= 2100000000; 
+int h= 2100000000;
+long i =  checked(g + h);
+Console.WriteLine(i);
+
