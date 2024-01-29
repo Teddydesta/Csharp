@@ -67,3 +67,17 @@ void OrderPrecedence(){
     
 }
 
+//NUmbers, Precision, casting, double and more ...
+NumbersCastingDouble();
+void NumbersCastingDouble(){ // explicit type
+    double a = 20.1; 
+    float b = 34.6F;
+    double c = a + b;
+    Console.WriteLine(c);
+    //
+    decimal d = 20.1M;  // precision
+    decimal e = 34.6M;
+    decimal f = d + e;
+    Console.WriteLine($"the answer is {f}");
+} 
+
